@@ -1,0 +1,919 @@
+{
+  "fonts.fontSize": "12px",
+  "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+  "extensions.sort": "downloads",
+  "themes.theme": "rain.monokai-dark-soda",
+  "custom.work.toggle.sidebar": true,
+  "custom.work.autoHideTheTabmenu": true,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.boldTag": [
+        "Ctrl",
+        null,
+        null,
+        null,
+        "B"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.boldStyle": [
+        "Ctrl",
+        "Shift",
+        null,
+        null,
+        "B"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.italicTag": [
+        "Ctrl",
+        null,
+        null,
+        null,
+        "I"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.italicStyle": [
+        "Ctrl",
+        "Shift",
+        null,
+        null,
+        "I"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.underlineTag": [
+        "Ctrl",
+        null,
+        null,
+        null,
+        "U"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.underlineStyle": [
+        "Ctrl",
+        "Shift",
+        null,
+        null,
+        "U"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.emptyTag": [
+        "Ctrl",
+        null,
+        null,
+        null,
+        "T"
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.preferences": [
+        "Ctrl",
+        "Shift",
+        null,
+        null,
+        ","
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.firstUseMessageShown": true,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.extensions": "htm, html, php, asp",
+  "wadedwalker.brackets.extension.htmlFormat.preferences.boldUsesStrong": false,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.italicUsesEm": false,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.rightClick": false,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.breakType": false,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.breakTypeNextLine": false,
+  "wadedwalker.brackets.extension.htmlFormat.preferences.anchorTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.paragraphTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.h1Tag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.h2Tag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.h3Tag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.h4Tag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.h5Tag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.h6Tag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.spanTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.divTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.headerTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.navTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.mainTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.sectionTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.articleTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.asideTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.footerTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.strikeTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.strikeStyle": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.teletypeTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.teletypeStyle": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.codeTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.variableTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.sampleTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.keyboardTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.citationTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.deletedTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.definitionTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.insertedTag": [
+        null,
+        null,
+        null,
+        null,
+        ""
+    ],
+  "linting.collapsed": true,
+  "brackets-nodejs-integration.configurations": [
+    {
+      "name": "npm run",
+      "cwd": "",
+      "flags": "",
+      "type": "npm",
+      "target": "{project_root}/package.json",
+      "debug": false
+        },
+    {
+      "name": "nodejs process sample",
+      "cwd": "",
+      "flags": "",
+      "type": "node",
+      "target": "C:/Users/jjm0966a/AppData/Roaming/Brackets/extensions/user/brackets-nodejs-integration/tests/hello.js",
+      "debug": false
+        },
+    {
+      "name": "http server sample",
+      "cwd": "",
+      "flags": "",
+      "type": "node",
+      "target": "C:/Users/jjm0966a/AppData/Roaming/Brackets/extensions/user/brackets-nodejs-integration/tests/server.js",
+      "debug": false
+        },
+    {
+      "name": "mocha test sample",
+      "cwd": "",
+      "flags": "",
+      "type": "mocha",
+      "target": "C:/Users/jjm0966a/AppData/Roaming/Brackets/extensions/user/brackets-nodejs-integration/tests/mocha_test.js",
+      "debug": false
+        },
+    {
+      "name": "loadTestNames.js",
+      "cwd": "",
+      "flags": "",
+      "type": "npm",
+      "target": "loadTestNames.js",
+      "debug": false
+        },
+    {
+      "name": "npm run load",
+      "cwd": "",
+      "flags": "loadTestNames.js",
+      "type": "npm",
+      "target": "{project_root}/package.json",
+      "debug": false
+        },
+    {
+      "name": "npm run update",
+      "cwd": "",
+      "flags": "updateTestData.js",
+      "type": "npm",
+      "target": "{project_root}/package.json",
+      "debug": false
+        },
+    {
+      "name": "md-pdf.js",
+      "type": "node",
+      "cwd": "C:/Users/jjm0966a/Desktop/test/Angular/_pref/",
+      "target": "C:/Users/jjm0966a/Desktop/test/Angular/_pref/md-pdf.js",
+      "debug": false
+        }
+    ],
+  "wadedwalker.brackets.extension.htmlFormat.preferences.updateMessage1Shown": true,
+  "linting.JSLint.collapsed": true,
+  "styleActiveLine": true,
+  "brackets-indent-guides.enabled": true,
+  "edc.brackets-snippets.hints": [
+    {
+      "trigger": "cd",
+      "scope": "javascript",
+      "description": "console.dir",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.dir(${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "ce",
+      "scope": "javascript",
+      "description": "console.error",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.error",
+      "source": "system",
+      "mTime": 1502903392876
+        },
+    {
+      "trigger": "cll",
+      "scope": "javascript",
+      "description": "console.log",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.log('${1:obj}:', ${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "cdd",
+      "scope": "javascript",
+      "description": "console.dir",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.dir('${1:obj}:', ${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "cee",
+      "scope": "javascript",
+      "description": "console.error",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.error('${1:obj}:', ${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "ae",
+      "scope": "javascript",
+      "description": "document.addEventListener",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.addEventListener('${2:event}', function(e) {\n  ${3}\n});",
+      "source": "system"
+        },
+    {
+      "trigger": "ac",
+      "scope": "javascript",
+      "description": "document.appendChild",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.appendChild(${2:elem});${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "rc",
+      "scope": "javascript",
+      "description": "document.removeChild",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.removeChild(${2:elem});${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "cel",
+      "scope": "javascript",
+      "description": "document.createElement",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.createElement(${2:elem});${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "gi",
+      "scope": "javascript",
+      "description": "document.getElementById",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.getElementById('${2:id}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "gc",
+      "scope": "javascript",
+      "description": "document.getElementsByClassName",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.getElementsByClassName('${2:class}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "gt",
+      "scope": "javascript",
+      "description": "document.getElementsByTagName",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.getElementsByTagName('${2:tag}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "qs",
+      "scope": "javascript",
+      "description": "document.querySelector",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.querySelector('${2:selector}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "qsa",
+      "scope": "javascript",
+      "description": "document.querySelectorAll",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.querySelectorAll('${2:selector}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "fe",
+      "scope": "javascript",
+      "description": "forEach",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:myArray}.forEach(function (${2:elem}) {\n  ${3}\n});",
+      "source": "system"
+        },
+    {
+      "trigger": "fi",
+      "scope": "javascript",
+      "description": "for in",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "for (${1:prop} in ${2:obj}) {\n  if (${2:obj}.hasOwnProperty(${1:prop})) {\n    ${3}\n  }\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "fn",
+      "scope": "javascript",
+      "description": "function",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "function ${1:methodName} (${2:arguments}) {\n  ${3}\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "afn",
+      "scope": "javascript",
+      "description": "anonymous function",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "function (${1:arguments}) {\n  ${2}\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "pr",
+      "scope": "javascript",
+      "description": "prototype",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {\n  ${4}\n};",
+      "source": "system"
+        },
+    {
+      "trigger": "sw",
+      "scope": "javascript",
+      "description": "switch statement",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "switch(${1:expression}) {\n  case ${2:value}:\n    ${3}\n    break;\n  default:\n    break;\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "si",
+      "scope": "javascript",
+      "description": "setInterval",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "setInterval(function() {\n  ${2}\n}, ${1:delay});",
+      "source": "system"
+        },
+    {
+      "trigger": "st",
+      "scope": "javascript",
+      "description": "setTimeout",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "setTimeout(function() {\n  ${2}\n}, ${1:delay});",
+      "source": "system"
+        },
+    {
+      "trigger": "rq",
+      "text": "var ${1:mod} = require('${1}');",
+      "scope": "javascript",
+      "mTime": 1502908486474
+        },
+    {
+      "trigger": "ll",
+      "scope": "javascript",
+      "text": "logger.log(`Item --> ${1}`);",
+      "mTime": 1502908446202
+        },
+    {
+      "trigger": "af",
+      "description": "arrow function",
+      "scope": "javascript",
+      "text": "(${1:args}) => {\n  \n};",
+      "mTime": 1502911571393
+        },
+    {
+      "trigger": "imp",
+      "description": "import",
+      "scope": "javascript",
+      "text": "import ${1:mod} from '${1}';",
+      "mTime": 1502908411009
+        },
+    {
+      "trigger": "exp",
+      "description": "export",
+      "scope": "javascript",
+      "text": "export default ${1:obj};",
+      "mTime": 1502903240467
+        },
+    {
+      "trigger": "class",
+      "description": "React component class",
+      "scope": "javascript",
+      "text": "class ${1:className} extends Component {\n  render() {\n    return (\n      <div className='${1}'>\n        \n      </div>\n    );\n  }\n}",
+      "mTime": 1502914105437
+        },
+    {
+      "trigger": "iife",
+      "description": "immediately-invoked function expression",
+      "scope": "javascript",
+      "text": "(function(window, document, undefined) {\r\n  ${0:// body...} \r\n})(window, document);",
+      "mTime": 1502909504260
+        },
+    {
+      "trigger": "ofn",
+      "description": "function as a property of an object",
+      "scope": "javascript",
+      "text": "${1:functionName}: function(${2:arguments}) {\r\n  ${3:// body...} \r\n}",
+      "mTime": 1502909490186
+        },
+    {
+      "trigger": "jp",
+      "description": "JSON.parse",
+      "scope": "javascript",
+      "text": "JSON.parse(${1:obj});",
+      "mTime": 1502909555747
+        },
+    {
+      "trigger": "js",
+      "description": "JSON.stringify",
+      "text": "JSON.stringify(${1:obj});",
+      "scope": "javascript",
+      "mTime": 1502909594419
+        },
+    {
+      "trigger": "me",
+      "description": "module.exports",
+      "scope": "javascript",
+      "text": "module.exports = ${1:name};",
+      "mTime": 1502909667468
+        },
+    {
+      "trigger": "pe",
+      "description": "process.exit",
+      "scope": "javascript",
+      "text": "process.exit(${1:code});",
+      "mTime": 1502909730777
+        },
+    {
+      "trigger": "mdblid",
+      "description": "mongoDB return an array of elements matching an array of Ids",
+      "scope": "javascript",
+      "text": "const ${1:elemIds} = req.params.${1}.split(',').map(ObjectID);\r\nlet ${2:elem}s = {};\r\nmdb.collection('${2}').find({ _id: { $in: ${1} } })\r\n.each((err, ${2}) => {\r\n  assert.equal(null, err);\r\n\r\n  if (!${2}) {\r\n    res.send({\r\n      ${2}s\r\n    });\r\n    return;\r\n  }\r\n  ${2}s[${2}._id] = ${2};\r\n});\r\n",
+      "mTime": 1502999943708
+        },
+    {
+      "trigger": "mdbconnect",
+      "description": "mongoDB connection",
+      "scope": "javascript",
+      "text": "import express from 'express';\r\nimport {\r\n  MongoClient,\r\n  ObjectID\r\n} from 'mongodb';\r\nimport assert from 'assert';\r\nimport config from '../config';\r\n\r\nlet mdb;\r\nMongoClient.connect(config.mongodbUri, (err, db) => {\r\n  assert.equal(null, err);\r\n  mdb = db;\r\n});\r\n",
+      "mTime": 1503000039263
+        },
+    {
+      "trigger": "cond",
+      "scope": "html",
+      "description": "Conditional Comment",
+      "text": "<!--[if ${1:lt IE 9}]>\n  <link rel=stylesheet href=\"${2:css/ie.css}\">\n<![endif]-->",
+      "source": "system"
+        },
+    {
+      "trigger": "doctype",
+      "scope": "html",
+      "description": "Boilerplate HTML",
+      "text": "<!doctype html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>${1:Document}</title>\n        <link rel=\"stylesheet\" href=\"css/style.css\">\n    </head>\n    <body>\n        ${2}\n\n        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js\"></script>\n        <script src=\"js/main.js\"></script>\n    </body>\n</html>",
+      "source": "system"
+        },
+    {
+      "trigger": "fig",
+      "scope": "html",
+      "description": "Figure Tag",
+      "text": "<figure>\n    <img src=\"${1}\" alt=\"${2}\">\n    <figcaption>${3}</figcaption>\n</figure>",
+      "source": "system"
+        },
+    {
+      "trigger": "ga",
+      "scope": "html",
+      "description": "Google Analytics",
+      "text": "<script>\n    var _gaq = [['_setAccount', '${1:UA-XXXXX-X}'], ['_trackPageview']];\n    (function(d, t) {\n        var g = d.createElement(t),\n            s = d.getElementsByTagName(t)[0];\n        g.src = '//www.google-analytics.com/ga.js';\n        s.parentNode.insertBefore(g, s);\n    }(document, 'script'));\n</script>",
+      "source": "system"
+        },
+    {
+      "trigger": "ga2",
+      "scope": "html",
+      "description": "New Google Analytics",
+      "text": "<script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n    ga('create', '${1:UA-XXXX-X}');\n    ga('send', 'pageview');\n</script>",
+      "source": "system"
+        },
+    {
+      "trigger": "img",
+      "scope": "html",
+      "description": "Dummy Image",
+      "text": "<img src=\"http://dummyimage.com/${1:800}x${2:600}/4d494d/686a82.gif&text=${3:placeholder+image}\" alt=\"${3:placeholder+image}\">${4}",
+      "source": "system"
+        },
+    {
+      "trigger": "jquery",
+      "scope": "html",
+      "description": "jQuery Tag",
+      "text": "<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>\n<script>window.jQuery || document.write('<script src=\"js/vendor/jquery-1.11.2.min.js\"><\\/script>')</script>",
+      "source": "system"
+        },
+    {
+      "trigger": "shiv",
+      "scope": "html",
+      "description": "IE Shiv",
+      "text": "<!--[if lt IE 9]>\n    <script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n<![endif]-->",
+      "source": "system"
+        },
+    {
+      "scope": "_any",
+      "trigger": "div",
+      "description": "div tag",
+      "text": "<div>\n  ${1:content}\n</div>",
+      "mTime": 1502920387372
+        },
+    {
+      "trigger": "h1",
+      "description": "h1 tag",
+      "scope": "_any",
+      "text": "<h1>${1:text}</h1>",
+      "mTime": 1502899255656
+        },
+    {
+      "trigger": "h2",
+      "description": "h2 tag",
+      "scope": "_any",
+      "text": "<h2>${1:text}</h2>",
+      "mTime": 1502899263247
+        },
+    {
+      "trigger": "h3",
+      "description": "ht tag",
+      "text": "<h3>${1:text}</h3>",
+      "scope": "_any",
+      "mTime": 1502899270327
+        },
+    {
+      "trigger": "h4",
+      "description": "h4 tag",
+      "text": "<h4>${1:text}</h4>",
+      "scope": "_any",
+      "mTime": 1502899276362
+        },
+    {
+      "trigger": "html",
+      "description": "html tag",
+      "scope": "_any",
+      "text": "<DOCTYPE html>\n<html lang='eng'>\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>${1:title}</title>\n</head>\n<body>\n  ${2:content}\n</body>\n</html>",
+      "mTime": 1502899222149
+        },
+    {
+      "trigger": "head",
+      "description": "head tag",
+      "scope": "_any",
+      "text": "<head>\n  ${1:content}\n</head>",
+      "mTime": 1502899017031
+        },
+    {
+      "trigger": "body",
+      "description": "body tag",
+      "scope": "_any",
+      "text": "<body>\n  ${1:content}\n</body>",
+      "mTime": 1502898994694
+        },
+    {
+      "trigger": "a",
+      "scope": "_any",
+      "description": "Anchor Tag",
+      "text": "<a href=\"${1}\">${2}</a>${3}",
+      "source": "system",
+      "mTime": 1502899521184
+        },
+    {
+      "trigger": "css",
+      "scope": "_any",
+      "description": "Style Tag",
+      "text": "<style type=\"text/css\">${1}</style>${2}",
+      "source": "system",
+      "mTime": 1502899331024
+        },
+    {
+      "trigger": "link",
+      "scope": "_any",
+      "description": "Link Tag",
+      "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"${1}\">${2}",
+      "source": "system",
+      "mTime": 1502899369651
+        },
+    {
+      "trigger": "meta",
+      "scope": "_any",
+      "description": "Meta Tag",
+      "text": "<meta charset=utf-8>\n<meta name=description content=\"${1}\">\n<meta name=viewport content=\"width=device-width, initial-scale=1\">${2}",
+      "source": "system",
+      "mTime": 1502899394166
+        },
+    {
+      "trigger": "lorem",
+      "scope": "_any",
+      "description": "Dummy Text",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor\nincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis\nnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\nfugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\nculpa qui officia deserunt mollit anim id est laborum.",
+      "source": "system",
+      "mTime": 1502914412286
+        },
+    {
+      "trigger": "divc",
+      "description": "div tag with className",
+      "scope": "_any",
+      "text": "<div className='${1:name}'>\n    \n</div>",
+      "mTime": 1502920468072
+        },
+    {
+      "trigger": "impc",
+      "description": "imoprt component - Angular",
+      "scope": "_any",
+      "text": "import { Component } from '@angular/core';\n\n@Component({\n    selector: '${1:prefix}-${2:name}',\n    templateUrl: 'app/${2}.component.html',\n    styleUrls: ['app/${2}.component.css']\n})\nexport class ${2}Component {}",
+      "mTime": 1503062645375
+        },
+    {
+      "trigger": "imp",
+      "description": "import",
+      "scope": "_any",
+      "text": "import { ${1:mod} } from '${1}';",
+      "mTime": 1503062663268
+        },
+    {
+      "trigger": "impa",
+      "scope": "_any",
+      "text": "import { ${1:Component} } from '@angular/${1}';",
+      "description": "import - Angular",
+      "mTime": 1503062671740
+        },
+    {
+      "trigger": "cl",
+      "scope": "_any",
+      "description": "console.log",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.log(${1:obj});${2}",
+      "source": "system",
+      "mTime": 1503064601984
+        },
+    {
+      "trigger": "todo",
+      "description": "new TODO item",
+      "scope": "_any",
+      "text": "/* TODO: implememt this thing to do a thing to another thing */",
+      "mTime": 1503096942115
+        }
+    ],
+  "brackets-git.gitPath": "git",
+  "brackets-git.stripWhitespaceFromCommits": true,
+  "brackets-git.addEndlineToTheEndOfFile": true,
+  "brackets-git.removeByteOrderMark": false,
+  "brackets-git.normalizeLineEndings": false,
+  "brackets-git.useGitGutter": true,
+  "brackets-git.markModifiedInTree": true,
+  "brackets-git.showBashButton": true,
+  "brackets-git.useCodeInspection": true,
+  "brackets-git.useGitFtp": false,
+  "brackets-git.useVerboseDiff": false,
+  "brackets-git.useDifftool": false,
+  "brackets-git.showTerminalIcon": false,
+  "brackets-git.clearWhitespaceOnSave": false,
+  "brackets-git.avatarType": "AVATAR_COLOR",
+  "brackets-git.dateMode": 1,
+  "brackets-git.dateFormat": null,
+  "brackets-git.enableAdvancedFeatures": false,
+  "brackets-git.panelShortcut": "Ctrl-Alt-G",
+  "brackets-git.commitCurrentShortcut": null,
+  "brackets-git.commitAllShortcut": null,
+  "brackets-git.bashShortcut": null,
+  "brackets-git.pushShortcut": null,
+  "brackets-git.pullShortcut": null,
+  "brackets-git.gotoPrevChangeShortcut": null,
+  "brackets-git.gotoNextChangeShortcut": null,
+  "brackets-git.refreshShortcut": null,
+  "brackets-git.gitTimeout": 30,
+  "brackets-git.terminalCommand": "C:\\Program Files\\Git\\git-bash.exe",
+  "brackets-git.terminalCommandArgs": "--cd=$1",
+  "brackets-git.debugMode": false,
+  "zaggino.brackets-eslint.gutterMarks": true,
+  "highlightMatches": true,
+  "indentLineComment": true,
+  "pane.mergePanesWhenLastFileClosed": true,
+  "showCursorWhenSelecting": true,
+  "spaceUnits": 2,
+  "tabSize": 2,
+  "bb.beautify.onSave": false,
+  "brackets-nodejs-integration.node-bin": "",
+  "brackets-nodejs-integration.npm-bin": "",
+  "brackets-nodejs-integration.v8-flags": "",
+  "brackets-nodejs-integration.additional-flags": "",
+  "brackets-nodejs-integration.lookupDepth": 4,
+  "brackets-nodejs-integration.removeBreakpointsOnDisconnect": false,
+  "brackets-nodejs-integration.autoscroll": true,
+  "brackets-icons.iconset": "ionicons",
+  "jzmstrjp.color_the_tag_name.theme_number": 1,
+  "bb.beautify.hideDialog": false,
+  "bb.beautify.languages": {
+    "css": "css",
+    "ejs": "html",
+    "handlebars": "html",
+    "html": "html",
+    "javascript": "js",
+    "json": "js",
+    "jsx": "js",
+    "less": "css",
+    "php": "html",
+    "scss": "css",
+    "svg": "html",
+    "typescript": "js",
+    "typescript-jsx": "js",
+    "vue": "html",
+    "xml": "html"
+  },
+  "custom.work.showWorkingListViewonLeftSidebar": true,
+  "insertHintOnTab": true,
+  "mikaeljorhult.bracketsTodo.enabled": false,
+  "extensions.default.disabled": [
+        "C:/Program Files (x86)/Brackets/www/extensions/default/HealthData",
+        "C:/Program Files (x86)/Brackets/www/extensions/default/JSLint"
+    ],
+  "language.fileExtensions": {
+    "": "json",
+    "ts": "typescript"
+  },
+  "brackets-nodejs.node-bin": "",
+  "brackets-nodejs.npm-bin": "",
+  "brackets-nodejs.v8-flags": "",
+  "brackets-nodejs.autoscroll": true
+}

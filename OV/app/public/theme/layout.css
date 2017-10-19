@@ -1,0 +1,309 @@
+html,
+body>#page {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ * 		HEADER STYLES
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ */
+
+#header {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 60px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #19728a;
+}
+
+#title {
+	position: relative;
+	left: 25%;
+}
+
+#header-title {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-family: monospace;
+	font-size: 48px;
+	color: white;
+}
+
+#ipc-logo {
+	box-sizing: border-box;
+	height: 50px;
+	padding: 3px;
+	margin: 3px;
+	width: 123px;
+}
+
+#department {
+	position: absolute;
+	right: 45px;
+	top: 15px;
+	margin: auto;
+	padding: 0;
+	border: 0;
+}
+
+#header-dep {
+	font-family: monospace;
+	font-size: 24px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/*
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ *		MAIN CONTENT (MAP)
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ */
+
+#content {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+	min-width: 900px;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	height: 100%;
+	min-width: 800px;
+}
+
+#map-info {
+	position: absolute;
+	top: 60px;
+	left: 1px;
+	color: white;
+	background: black;
+	opacity: 0.6;
+	border: 0;
+	margin: 1px;
+	padding: 0;
+}
+
+#map-info > h3 {
+	font-family: monospace;
+	font-size: 10pt;
+	border: 0;
+	margin: 1px;
+	padding: 0;
+}
+
+
+/*
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ * 	  SIDE PANEL SECTIONS
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ */
+
+#side-panel {
+	position: fixed;
+	top: 60px;
+	right: 0px;
+	margin: 0;
+	padding: 0;
+	min-width: 220px;
+	height: auto;
+	overflow: hidden;
+}
+
+.ui-accordion .ui-accordion-content {
+	overflow: hidden;
+}
+
+.ui-button {
+	padding: .2em .5em;
+	border-radius: 3px;
+}
+
+
+/*
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ *		  AMI QUERY 
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ */
+
+
+/* help button */
+
+#help-button {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-dialog-buttonpane {
+	padding: 0;
+	margin: 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+	padding: 0;
+}
+
+/* query range input */
+
+.region-select {
+    width: auto;
+}
+
+.range-box {
+	border: 1px gray solid;
+	padding: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+#range {
+	display: flex;
+	flex-direction: column;
+}
+
+#volt-range,
+#date-range {
+	display: flex;
+	flex-direction: row;
+}
+
+#volt-range>section,
+#date-range>section {
+	float: left;
+}
+
+#volt-range>section>p,
+#date-range>section>p {
+	width: 80px;
+	line-height: 1;
+	padding: 0;
+	margin: 3px;
+	font-size: 13px;
+}
+
+#volt-min,
+#volt-max,
+#date-start,
+#date-end {
+	width: 75px;
+}
+
+#advanced-query {
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px darkgray solid;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*
+* <----------------------->
+* <----------------------->
+* <----------------------->
+*		SEASONAL QUERIES
+* <----------------------->
+* <----------------------->
+* <----------------------->
+*/
+
+#seasonal-selectors {
+	display: flex;
+	flex-direction: row;
+	border-radius: 3px;
+}
+
+#seasonal-selectors>select {
+	border-radius: 3px;
+}
+
+
+/*
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ *		LAYER CONTROLS
+ * <----------------------->
+ * <----------------------->
+ * <----------------------->
+ */
+
+#layerList {
+	padding-bottom: 20px;
+}
+
+.layer {
+	margin: 0.1em 0.1em 0.2em 0;
+	padding: 0;
+	border-radius: 0;
+}
+
+.ui-state-highlight {
+	height: 35px;
+}
+
+.layer-header {
+	padding: 0.2em 0.3em;
+	margin: 0.1em;
+	position: relative;
+	font-size: auto;
+	height: 18px;
+	font-family: monospace;
+	color: white;
+	border-radius: 0;
+}
+
+.layer-toggle {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -8px;
+}
+
+.layer-content {
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}

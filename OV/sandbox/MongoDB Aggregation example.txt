@@ -1,0 +1,63 @@
+Mongo DB Aggregation example
+
+> db.tours.count({tourPackage:"Cycle California"})
+
+3
+
+NOTE: we would have to query each package if we wanted to know the count for each
+		--> using aggregate can simplify the process
+
+> db.tours.aggregete({$group: {_id: '$tourPackage', count: {$sum: 1}}})
+
+{ "_id" : "Taste of California", 		"count" : 4 }
+{ "_id" : "Snowboard Cali", 			"count" : 3 }
+{ "_id" : "Nature Watch", 				"count" : 3 }
+{ "_id" : "Kids California", 			"count" : 3 }
+{ "_id" : "From Desert to Sea", 		"count" : 2 }
+{ "_id" : "Backpack Cal", 				"count" : 5 }
+{ "_id" : "California Hot springs", 	"count" : 3 }
+{ "_id" : "California Calm", 			"count" : 3 }
+{ "_id" : "Cycle California", 			"count" : 3 }
+
+> db.tours.aggregate({$group: {_id: '$tourOrganizer.organizerName', count: {$sum:1}}})
+
+{ "_id" : "Alison Birch", 		"count" : 4 }
+{ "_id" : "Smokey Bear", 		"count" : 2 }
+{ "_id" : "Mickey Mouse", 		"count" : 1 }
+{ "_id" : "Tony Hawkins", 		"count" : 3 }
+{ "_id" : "Ishmael Fisher", 	"count" : 4 }
+{ "_id" : "John Smith", 		"count" : 5 }
+{ "_id" : "Jack Kerouak", 		"count" : 1 }
+{ "_id" : "Amber Fineway", 		"count" : 3 }
+{ "_id" : "Lance Armstrong", 	"count" : 2 }
+{ "_id" : "Martin Jones", 		"count" : 4 }
+
+> db.tours.aggregate({$group: {_id: '$tourOrganizer.organizerName', average: {$avg: '$tourPrice'}, count: {$sum:1}}})
+
+{ "_id" : "Alison Birch", 		"average" : 418.75, 	"count" : 4 }
+{ "_id" : "Smokey Bear", 		"average" : 550, 		"count" : 2 }
+{ "_id" : "Mickey Mouse", 		"average" : 1200, 		"count" : 1 }
+{ "_id" : "Tony Hawkins", 		"average" : 900, 		"count" : 3 }
+{ "_id" : "Ishmael Fisher", 	"average" : 700, 		"count" : 4 }
+{ "_id" : "John Smith", 		"average" : 480, 		"count" : 5 }
+{ "_id" : "Jack Kerouak", 		"average" : 200, 		"count" : 1 }
+{ "_id" : "Amber Fineway", 		"average" : 558.34, 	"count" : 3 }
+{ "_id" : "Lance Armstrong",	"average" : 1850, 		"count" : 2 }
+{ "_id" : "Martin Jones", 		"average" : 2187.5, 	"count" : 4 }
+
+NOTE: The object 'out' adds the results to a new collection 'prices'
+
+> db.tours.aggregate({$group: {_id: '$tourOrganizer.organizerName', average: {$avg: '$tourPrice'}, count: {$sum:1}}}, {$out: 'prices'})
+
+> db.prices.find()
+
+{ "_id" : "Alison Birch", 		"average" : 418.75, 	"count" : 4 }
+{ "_id" : "Smokey Bear", 		"average" : 550, 		"count" : 2 }
+{ "_id" : "Mickey Mouse", 		"average" : 1200, 		"count" : 1 }
+{ "_id" : "Tony Hawkins", 		"average" : 900, 		"count" : 3 }
+{ "_id" : "Ishmael Fisher", 	"average" : 700, 		"count" : 4 }
+{ "_id" : "John Smith", 		"average" : 480, 		"count" : 5 }
+{ "_id" : "Jack Kerouak", 		"average" : 200, 		"count" : 1 }
+{ "_id" : "Amber Fineway", 		"average" : 558.34, 	"count" : 3 }
+{ "_id" : "Lance Armstrong", 	"average" : 1850, 		"count" : 2 }
+{ "_id" : "Martin Jones", 		"average" : 2187.5, 	"count" : 4 }

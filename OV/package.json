@@ -1,0 +1,42 @@
+{
+  "name": "VoltQ",
+  "version": "2.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node voltq.js",
+    "run": "nodemon -e ejs,js,css --watch app --watch appDB --watch _config --watch _util"
+  },
+  "engines": {
+    "node": "node",
+    "views": "ejs"
+  },
+  "author": "Joe McCarver",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chosen-js": "^1.7.0",
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "forever": "^0.15.3",
+    "forever-monitor": "^1.7.1",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.1.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.30",
+    "morgan": "^1.8.2",
+    "node-windows": "^0.1.14",
+    "nodemon": "^1.11.0",
+    "oracledb": "^1.13.1",
+    "promise": "^8.0.1",
+    "reload": "^2.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0"
+  }
+}

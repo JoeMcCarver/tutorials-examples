@@ -1,0 +1,84 @@
+html, body {
+    text-align: center;
+    font-family: monaco, monospace;
+    background: url(/theme/images/tlines.gif);
+    background-size: 50%;
+    
+}
+
+#mian {
+    padding-top: 100px;
+}
+
+#header {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #19728a;
+}
+
+#title {
+    position: relative;
+    left: 30%;
+}
+
+#header-title {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font-family: monospace;
+    font-size: 48px;
+    color: white;
+}
+
+#ipc-logo {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 3px;
+    margin: 3px;
+    width: 123px;
+}
+
+#department {
+    position: absolute;
+    right: 45px;
+    top: 15px;
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+
+#header-dep {
+    font-family: monospace;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#welcome, #message {
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px; 
+    background: #19728a;
+    border-radius: 6px;
+    border: 1px white solid;
+}
+
+#welcome {
+    margin-top: 100px;
+}
+
+#message {
+    margin-top: 50px;
+}
+
+
+

@@ -1,0 +1,106 @@
+MongoDB 'join' collections example
+
+> db.people.findOne({_id:'Brad Pitt'})                                                                                                                               
+
+{                                                                                                                                                                    
+	'_id' : 'Brad Pitt',                                                                                                                                         
+	'movies' : [                                                                                                                                                 
+			'Fight Club',                                                                                                                                        
+			'Inglourious Basterds',                                                                                                                              
+			'World War Z'                                                                                                                                        
+	],                                                                                                                                                           
+	'img' : '/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg',                                                                                                                  
+	'popularity' : 16.080298                                                                                                                                     
+}                                                                                                                                                                    
+
+> db.movies.findOne({_id:'Fight Club'})                                                                                                                              
+
+{                                                                                                                                                                    
+	'_id' : 'Fight Club',                                                                                                                                        
+	'overview' : `A ticking-time-bomb insomniac and a slippery soap salesman
+	channel primal male aggression into a shocking new form of therapy. Their
+	concept tches on, with underground \"fight clubs\" forming in every town, 
+	until an eccentric gets in the way and ignites an out-of-control spiral 
+	toward oblivion.`,
+	'genres' : [                                                                                                                                                 
+			'Drama'                                                                                                                                              
+	],                                                                                                                                                           
+	'img' : '/adw6Lq9FiC9zjYEpOqfq03ituwp.jpg',                                                                                                                  
+	'popularity' : 6.492569                                                                                                                                      
+}                                                                                                                                                                    
+
+> db.people.find({movies:'The Avengers'})                                                                                                                            
+
+{ 	
+	'_id' : 'Jeremy Renner', 
+	'movies' : [ 
+			'The Avengers', 
+			'Thor', 
+			'Avengers: Age of Ultron' 
+	], 
+	'img' : '/g8gheNEdPSXWH5SnjfjTYWj5ziU.jpg', 
+	'popularity' : 14.416074 
+}
+{ 	
+	'_id' : 'Chris Evans',
+	'movies' : [ 
+			'The Avengers', 
+			'Captain America: The First Avenger', 
+			'Avengers: Age of Ultron' 
+	], 
+	'img' : '/ueIzur9vURNLoqZCdfWltnpuZTq.jpg', 
+	'popularity' : 14.415341 
+}
+> var moviename='The Avengers'
+
+> var movieobj=db.movies.findOne({_id:moviename})                                                                                                                  
+
+> movieobj.cast = []                                                                                                                                               
+
+[ ]                                                                                                                                                                
+
+> var personArray = db.people.find({movies:moviename})
+
+> personArray.forEach(function(person){ 
+	movieobj.cast.push(person) 
+	})                                                                                              
+
+> movieobj
+
+{                                                                                                                                                                    
+	'_id' : 'The Avengers',                                                                                                                                      
+	'overview' : `When an unexpected enemy emerges and threatens global safety 
+	and security, Nick Fury, director of the international peacekeeping agency 
+	known as S.H.I.E.L.D., finds himself in need of a team to pull the world 
+	back from the brink of disaster. Spanning the globe, a daring recruitment 
+	effort begins!`,       
+	'genres' : [                                                                                                                                                 
+			'Science Fiction',                                                                                                                                   
+			'Action',                                                                                                                                            
+			'Adventure'                                                                                                                                          
+	],                                                                                                                                                           
+	'img' : '/cezWGskPY5x7GaglTTRN4Fugfb8.jpg',                                                                                                                  
+	'popularity' : 8.185595,                                                                                                                                     
+	'cast' : [                                                                                                                                                   
+			{                                                                                                                                                    
+				'_id' : 'Jeremy Renner',                                                                                                                     
+				'movies' : [                                                                                                                                 
+						'The Avengers',                                                                                                                      
+						'Thor',                                                                                                                              
+						'Avengers: Age of Ultron'                                                                                                            
+				],                                                                                                                                           
+				'img' : '/g8gheNEdPSXWH5SnjfjTYWj5ziU.jpg',                                                                                                  
+				'popularity' : 14.416074                                                                                                                     
+			},                                                                                                                                                   
+			{                                                                                                                                                    
+				'_id' : 'Chris Evans',                                                                                                                       
+				'movies' : [                                                                                                                                 
+						'The Avengers',                                                                                                                      
+						'Captain America: The First Avenger',                                                                                                
+						'Avengers: Age of Ultron'                                                                                                            
+				],                                                                                                                                           
+				'img' : '/ueIzur9vURNLoqZCdfWltnpuZTq.jpg',                                                                                                  
+				'popularity' : 14.415341                                                                                                                     
+			}                                                                                                                                                    
+	]                                                                                                                                                            
+}

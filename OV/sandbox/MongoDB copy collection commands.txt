@@ -1,0 +1,46 @@
+copy or clone collection from cmd
+
+mongodump -d db -c sourcecollection 
+mongorestore -d db -c targetcollection --dir=dump/<db>/<sourcecollection.bson>
+
+or
+
+mongoexport -d db -c sourcecollection | mongoimport -d db -c targetcollection --drop
+
+mongoexport -d voltq -c meters --fields spId,station,feederId,region,long,lat -o "C:\VoltQ-application\test\VoltQ-Test\app\data\meters.json"
+
+mongoexport -d voltq -c ami_16_winter_below117 --fields spId,readTime,volts -o "C:\VoltQ-application\test\VoltQ-Test\app\data\amiSampleData.json"
+
+mongoexport -d seasonalData -c data16_3winterLT114 -o "C:\VoltQ-application\test\VoltQ-Test\app\data\sampleSeasonalData16_3winterLT114.json"
+
+________________________________
+
+-------Collection STATS---------
+________________________________
+
+var mgo = db.getMongo()
+
+function getReadableFileSizeString(fileSizeInBytes) {
+
+    var i = -1;
+    var byteUnits = [' kB', ' MB', ' GB', ' TB', 'PB', 'EB', 'ZB', 'YB'];
+    do {
+        fileSizeInBytes = fileSizeInBytes / 1024;
+        i++;
+    } while (fileSizeInBytes > 1024);
+
+    return Math.max(fileSizeInBytes, 0.1).toFixed(1) + byteUnits[i];
+};
+
+function getStatsFor(db){
+    var collectionNames = db.getCollectionNames(), stats = [];
+    collectionNames.forEach(function (n) { stats.push(db.getCollection(n).stats()); });
+    stats = stats.sort(function(a, b) { return b['size'] - a['size']; });
+    for (var c in stats) { print(stats[c]['ns'] + ": " + getReadableFileSizeString(stats[c]['size']) + " (" + getReadableFileSizeString(stats[c]['storageSize']) + ")"); }
+}
+
+function getAllStats(){
+    mgo.getDBNames().forEach(function(name){ var db = mgo.getDB(name); print('\n    '+db+'\n'); getStatsFor(db) })
+}
+
+getAllStats()

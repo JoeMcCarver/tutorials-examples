@@ -1,0 +1,181 @@
+<div id='side-panel'>
+    <div id='controls' class='accordion'>
+        <h3 id='amiQueryTitle'>AMI Query</h3>
+        <div id='amiQuery' class='my-accordion-content'>
+            <!---------------------------->
+            <!---------------------------->
+            <!--	AMI Querry input	-->
+            <!---------------------------->
+            <!---------------------------->
+            <div class='range-box'>
+                <select multiple class='region-select'>
+                    <option value=''></option>
+                    <optgroup value='all' label='All'>
+                    <option value='Capital'>Capital</option>
+                    <option value='Canyon'>Canyon</option>
+                    <option value='Western'>Western</option>
+                    <option value='Eastern'>Eastern</option>
+                    <option value='Southern'>Southern</option>
+                    </optgroup>
+				</select>
+            </div>
+            <div id='range'>
+                <div class='range-box'>
+                    <!-- 	Voltage range section 	-->
+                    <div style="align-content:center; align-items:center">
+                        <label style='right: 0;'>Voltage Range </label>
+                        <button id='help-button' title="Help" class='button ui-button'>
+                                <span class="ui-icon ui-icon-lightbulb"></span>
+                            </button>
+                        <!-- 	Help dialog button 	-->
+                        <div id='helpDlg' title='Help'>
+                            <p><em> How-to submit custom query:</em></p>
+                            <p>Query Type</p>
+                            <ul>
+                                <li> <b>lesss-than:</b>
+                                    <br /> - <em>only </em>enter value in low </li>
+                                <br />
+                                <li> <b>greater-than:</b>
+                                    <br /> - <em>only </em>enter value in high </li>
+                                <br />
+                                <li> <b>range:</b>
+                                    <br /> - enter value in low <em>and </em>high </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id='volt-range'>
+                        <section>
+                            <p>
+                                <input type='number' id='volt-min' placeholder='low' />
+                            </p>
+                        </section>
+                        <section>
+                            <p>
+                                <input type='number' id='volt-max' placeholder='high' />
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                <!-- 	Date range section 	-->
+                <div class='range-box'>
+                    <div>
+                        <label>Date Range</label>
+                    </div>
+                    <div id='date-range'>
+                        <section>
+                            <p>
+                                <input id='date-start' placeholder='start' />
+                            </p>
+                        </section>
+                        <section>
+                            <p>
+                                <input id='date-end' placeholder='end' />
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- 	Submission Button 	-->
+            <buton id='ami-query' class='ui-button'>Submit</buton>
+            <div id='queryhelp' title='Oops'>
+                <p><em> You missed a few essential fields</em></p>
+                <p>Required fields for minimal query</p>
+                <ul>
+                    <li> <b>Voltage:</b>
+                        <br /> - High <em>OR </em> Low <em>at least </em></li>
+                    <br />
+                    <li> <b>Date:</b>
+                        <br /> - <em>BOTH </em>Start and End </li>
+                </ul>
+            </div>
+            <div id='advanced-query'>
+                <a href='/voltq' target='_blank' class='button ui-button'>Advanced</a>
+            </div>
+        </div>
+        <!---------------------------->
+        <!---------------------------->
+        <!-- 	Seasonal Queries  	-->
+        <!---------------------------->
+        <!---------------------------->
+
+        <h3>Seasonal Data</h3>
+        <div id='season-select' class='my-accordion-content'>
+            <!--	Season Select	-->
+            <div class='range-box'>
+
+                <label style='right: 0;'>Select Voltage</label>
+                <section id='lt-volts' style='padding-bottom: 5px;'>
+                <label style='font-size: 14px;'>Less than:</label>
+                    <select id='voltsSEL' class='volt-select'>
+				    <option value='114' selected='selected'>114</option>
+				    <option value='117'>117</option>
+				</select>
+                </section>
+                <label style='right: 0;'>Select Season</label>
+                <section id='seasonal-selectors' style='padding-bottom: 5px;'>
+                    <select id='seasonSEL' class="season-select">
+					<option value='spring'>Spring</option>
+					<option value='summer' selected="selected">Summer</option>
+					<option value='fall'>Fall</option>
+					<option value='winter'>Winter</option>
+				</select>
+                    <select id='seasonYR' class="year-select">
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016" selected="selected">2016</option>
+					<option value="2017">2017</option>
+				</select>
+                </section>
+            </div>
+            <button id='seasonalButton'>Submit</button>
+        </div>
+        <!---------------------------->
+        <!---------------------------->
+        <!-- Layer Select Controls  -->
+        <!---------------------------->
+        <!---------------------------->
+        <h3 id='layerSelectTitle'>Layer Select</h3>
+        <div id='layerList' class='my-accordion-content'>
+            <!-- 	leyers generated from 'js.map.js' 	-->
+            <button id='reload' class='ui-button'>reload</button>
+        </div>
+        <!---------------------------->
+        <!---------------------------->
+        <!-- 	  Bookmarks     	-->
+        <!---------------------------->
+        <!---------------------------->
+        <h3 id='defaultViewsTitle'>Quick Zoom</h3>
+        <div id='defaultViews' class='my-accordion-content'>
+            <div class='range-box'>
+                <label>Select View</label>
+                <br />
+                <select class='view-select' label='Select View'>
+					<option value='all'>All</option>
+					<option value='boise'>Boise</option>
+					<option value='canyon'>Canyon</option>
+					<option value='payette'>Payette</option>
+					<option value='pocatello'>Pocatello</option>
+					<option value='twin-falls'>Twin Falls</option>
+				</select>
+            </div>
+        </div>
+        <!---------------------------->
+        <!---------------------------->
+        <!-- 	  Future Use    	-->
+        <!---------------------------->
+        <!---------------------------->
+        <!--
+		<h3>More Controls 3</h3>
+		<div id='moreControls1' class='my-accordion-content'>
+			<ul>
+				<li>Sub Content 1</li>
+				<li>Sub Content 2</li>
+				<li>Sub Content 3</li>
+				<li>Sub Content 4</li>
+			</ul>
+		</div>
+-->
+    </div>
+</div>
